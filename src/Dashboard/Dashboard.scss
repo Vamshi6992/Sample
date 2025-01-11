@@ -1,0 +1,118 @@
+.main-dashboard {
+  .third-header {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 0 208px;
+    margin-top: 80px;
+    margin-bottom: 24px;
+  }
+  .container-dropdown {
+    background-color: #f1ece1;
+    padding: 80px 208px;
+    .dropdown-header {
+      font-family: Inter;
+      font-weight: 600;
+      font-size: 48px;
+      margin-bottom: 24px;
+    }
+    .header-name {
+      align-items: center;
+      font-family: Inter;
+
+      h1 {
+        border-bottom: 1px solid #969491;
+        padding-bottom: 8px;
+        justify-content: space-between;
+        display: flex;
+        cursor: pointer;
+      }
+      .dropdown {
+        display: none;
+        max-height: 0;
+        &.active {
+          max-height: 100%;
+          display: flex;
+          transition: max-height 2s;
+
+          .content-header {
+            display: flex;
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 600;
+            flex-direction: column;
+            margin-left: 24px;
+            margin-top: 24px;
+            margin-bottom: 8px;
+            .button {
+              max-width: 91px;
+            }
+
+            .content {
+              font-family: Inter;
+              font-size: 20px;
+              font-weight: 400;
+              color: #65625e;
+              margin-bottom: 8px;
+            }
+          }
+        }
+      }
+      h1 {
+        font-size: 20px;
+      }
+    }
+  }
+  .grid-container {
+    padding: 20px 208px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+    .grid-item {
+      display: flex;
+    }
+    .description {
+      margin-left: 24px;
+    }
+    .item-name {
+      font-family: Gluten;
+      font-size: 32px;
+    }
+    .item-description {
+      font-family: Inter;
+      font-size: 14px;
+    }
+  }
+  .container {
+    display: flex;
+    padding: 0 208px;
+    .dashboard {
+      display: flex;
+      flex-direction: column;
+      .name {
+        font-family: Inter;
+        font-size: 56px;
+        font-weight: 600;
+        color: #1c1812;
+        margin-bottom: 16px;
+      }
+      .description {
+        font-size: 20px;
+        font-family: Inter;
+        color: #65625e;
+        margin-bottom: 16px;
+      }
+      .button {
+        padding: 8px 12px;
+        max-width: 111px;
+        background-color: #514432;
+        color: #f7f7f6;
+        align-items: center;
+        border-radius: 4px;
+      }
+    }
+    .image-container {
+      margin-left: 24px;
+    }
+  }
+}

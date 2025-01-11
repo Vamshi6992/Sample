@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  font-family: Gluten;
+  justify-content: space-between;
+  padding: 8px 208px;
+  align-items: center;
+  .logo {
+    display: flex;
+    align-items: center;
+
+    .heading {
+      font-size: 20px;
+      margin-left: 11px;
+      color: #514432;
+    }
+  }
+  .nav_links {
+    font-family: Inter;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+    color: #1c1812;
+
+    .theme {
+      margin-left: 16px;
+    }
+  }
+}

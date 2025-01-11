@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  background-color: #1c1812;
+  padding: 24px 208px;
+  flex-direction: column;
+  .main-footer {
+    display: flex;
+    justify-content: space-between;
+    .links {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: center;
+      color: #f7f7f6;
+      font-family: Inter;
+      font-size: 16px;
+    }
+  }
+  .copyright {
+    color: #aeadaa;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+    font-family: Inter;
+    margin-top: 36px;
+  }
+}
