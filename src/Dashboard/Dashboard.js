@@ -69,12 +69,34 @@ const Dashboard = () => {
           </div>
           <h1 onClick={() => handleToggle(2)}>
             Fly Fishing Experiences
-            <img src={activeIndex === 1 ? up : down} alt="" />
+            <img src={activeIndex === 2 ? up : down} alt="" />
           </h1>
+          <div className={"dropdown " + (activeIndex === 2 ? "active" : "")}>
+            <img src={fish} alt="fish" />
+            <div className="content-header">
+              Explore Fly Fishing
+              <span className="content">
+                Proin nibh nisl condimentum id venenatis a condimentum vitae
+                sapien. Tellus in metus vulputate eu sc
+              </span>
+              <button className="button">Learn More</button>
+            </div>
+          </div>
           <h1 onClick={() => handleToggle(3)}>
             Gear Up and Catch More
-            <img src={activeIndex === 1 ? up : down} alt="" />
+            <img src={activeIndex === 3 ? up : down} alt="" />
           </h1>
+          <div className={"dropdown " + (activeIndex === 3 ? "active" : "")}>
+            <img src={fish} alt="fish" />
+            <div className="content-header">
+              Explore Fly Fishing
+              <span className="content">
+                Proin nibh nisl condimentum id venenatis a condimentum vitae
+                sapien. Tellus in metus vulputate eu sc
+              </span>
+              <button className="button">Learn More</button>
+            </div>
+          </div>
         </div>
       </div>
 
